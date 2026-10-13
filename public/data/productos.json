@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Pulso",
+    "categoria": "Audio",
+    "precio": 89999,
+    "stock": 14,
+    "destacado": true,
+    "imagen": "/images/productos/auriculares.svg",
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido activa y hasta 40 horas de batería. Son plegables, tienen almohadillas acolchadas y micrófono para llamadas."
+  },
+  {
+    "id": 2,
+    "nombre": "Parlante Ronda",
+    "categoria": "Audio",
+    "precio": 74999,
+    "stock": 9,
+    "destacado": false,
+    "imagen": "/images/productos/parlante.svg",
+    "descripcion": "Parlante bluetooth resistente al agua con 12 horas de autonomía. Sonido en 360 grados y correa para llevarlo a todos lados."
+  },
+  {
+    "id": 3,
+    "nombre": "Micrófono Estudio USB",
+    "categoria": "Audio",
+    "precio": 99999,
+    "stock": 3,
+    "destacado": false,
+    "imagen": "/images/productos/microfono.svg",
+    "descripcion": "Micrófono condensador USB para streaming, clases y podcasts. Patrón cardioide, botón de silencio y salida para auriculares."
+  },
+  {
+    "id": 4,
+    "nombre": "Teclado mecánico Tecla 75",
+    "categoria": "Periféricos",
+    "precio": 124999,
+    "stock": 11,
+    "destacado": true,
+    "imagen": "/images/productos/teclado.svg",
+    "descripcion": "Teclado mecánico compacto con switches intercambiables, retroiluminación y conexión por cable o bluetooth. Distribución en español latino."
+  },
+  {
+    "id": 5,
+    "nombre": "Mouse Liviano",
+    "categoria": "Periféricos",
+    "precio": 39999,
+    "stock": 25,
+    "destacado": false,
+    "imagen": "/images/productos/mouse.svg",
+    "descripcion": "Mouse inalámbrico de 62 gramos con sensor de 16.000 DPI y receptor USB. Batería recargable de hasta 70 horas."
+  },
+  {
+    "id": 6,
+    "nombre": "Webcam Full HD",
+    "categoria": "Periféricos",
+    "precio": 54999,
+    "stock": 0,
+    "destacado": false,
+    "imagen": "/images/productos/webcam.svg",
+    "descripcion": "Cámara web 1080p con micrófono estéreo y corrección automática de luz. Se sujeta a cualquier monitor o notebook."
+  },
+  {
+    "id": 7,
+    "nombre": "Notebook Aire 14",
+    "categoria": "Computación",
+    "precio": 1299999,
+    "stock": 4,
+    "destacado": true,
+    "imagen": "/images/productos/notebook.svg",
+    "descripcion": "Notebook de 14 pulgadas con procesador de 8 núcleos, 16 GB de RAM y disco SSD de 512 GB. Pesa 1,3 kg y la batería dura una jornada completa."
+  },
+  {
+    "id": 8,
+    "nombre": "Monitor curvo 27",
+    "categoria": "Computación",
+    "precio": 389999,
+    "stock": 2,
+    "destacado": false,
+    "imagen": "/images/productos/monitor.svg",
+    "descripcion": "Monitor curvo de 27 pulgadas con resolución QHD y 165 Hz. Ideal para jugar, editar o trabajar con varias ventanas abiertas."
+  },
+  {
+    "id": 9,
+    "nombre": "Tablet Lienzo 11",
+    "categoria": "Computación",
+    "precio": 499999,
+    "stock": 6,
+    "destacado": false,
+    "imagen": "/images/productos/tablet.svg",
+    "descripcion": "Tablet de 11 pulgadas con lápiz incluido, 128 GB de almacenamiento y pantalla antirreflejo para leer y dibujar."
+  },
+  {
+    "id": 10,
+    "nombre": "Reloj inteligente Ritmo",
+    "categoria": "Gadgets",
+    "precio": 159999,
+    "stock": 8,
+    "destacado": true,
+    "imagen": "/images/productos/smartwatch.svg",
+    "descripcion": "Smartwatch con GPS, medición de ritmo cardíaco y más de 100 modos deportivos. La batería dura hasta 10 días."
+  },
+  {
+    "id": 11,
+    "nombre": "Cámara instantánea Flash",
+    "categoria": "Gadgets",
+    "precio": 189999,
+    "stock": 5,
+    "destacado": false,
+    "imagen": "/images/productos/camara.svg",
+    "descripcion": "Cámara de fotos instantáneas con flash automático y modo selfie. Imprime en segundos, sin necesidad de celular."
+  },
+  {
+    "id": 12,
+    "nombre": "Joystick inalámbrico",
+    "categoria": "Gadgets",
+    "precio": 79999,
+    "stock": 12,
+    "destacado": false,
+    "imagen": "/images/productos/joystick.svg",
+    "descripcion": "Control inalámbrico compatible con PC, Android y consolas. Tiene vibración, gatillos analógicos y batería de 20 horas."
+  }
+]

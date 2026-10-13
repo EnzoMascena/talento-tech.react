@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#E6DAFF"/>
+  <ellipse cx="200" cy="334" rx="150" ry="13" fill="#161A33" opacity=".13"/>
+<path d="M120 146 H280 C326 146 348 184 354 232 C360 280 338 310 308 310 C282 310 268 290 254 272 H146 C132 290 118 310 92 310 C62 310 40 280 46 232 C52 184 74 146 120 146 Z" fill="#FFFFFF" stroke="#161A33" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M110 192 h20 v20 h20 v20 h-20 v20 h-20 v-20 h-20 v-20 h20 Z" fill="#161A33"/>
+  <circle cx="290" cy="190" r="12" fill="#FFD23F" stroke="#161A33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="314" cy="216" r="12" fill="#161A33"/>
+  <circle cx="266" cy="216" r="12" fill="#161A33"/>
+  <circle cx="290" cy="242" r="12" fill="#161A33"/>
+  <circle cx="168" cy="250" r="20" fill="#E9EBF2" stroke="#161A33" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="232" cy="250" r="20" fill="#E9EBF2" stroke="#161A33" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M184 182 h32" stroke="#161A33" stroke-width="8" stroke-linecap="round"/>
+</svg>

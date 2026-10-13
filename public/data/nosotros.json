@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Enzo Mascena",
+    "puesto": "Fundador y director",
+    "email": "enzomascena@pila.com.ar",
+    "foto": "/images/equipo/enzo.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Solange Rodrigo",
+    "puesto": "Desarrollador frontend",
+    "email": "gordita@pila.com.ar",
+    "foto": "/images/equipo/lucia.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Milagros Crespo",
+    "puesto": "Diseñadora UX/UI",
+    "email": "gorda@pila.com.ar",
+    "foto": "/images/equipo/martina.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Tomas Herrera",
+    "puesto": "Ingeniero de Sistemas",
+    "email": "tomas@pila.com.ar",
+    "foto": "/images/equipo/tomas.svg"
+  }
+]

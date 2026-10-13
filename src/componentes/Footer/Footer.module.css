@@ -1,0 +1,54 @@
+.footer {
+  margin-top: clamp(3rem, 8vw, 5rem);
+  padding-block: clamp(2.5rem, 6vw, 4rem) 1.5rem;
+  background-color: var(--tinta);
+  color: #c9cce0;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  gap: 2rem;
+  padding-block: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.marca {
+  max-width: 34ch;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+  color: var(--blanco);
+  font-family: var(--fuente-titulos);
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.titulo {
+  margin-bottom: 0.6rem;
+  color: var(--blanco);
+  font-size: 1.0625rem;
+}
+
+.lista {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.lista a {
+  color: var(--carga);
+  text-underline-offset: 3px;
+}
+
+.lista a:focus-visible {
+  outline-color: var(--carga);
+}
+
+.legal {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.875rem;
+}

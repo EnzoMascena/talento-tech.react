@@ -1,0 +1,10 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* El main ocupa el espacio libre para que el footer quede siempre abajo */
+.main {
+  flex: 1;
+}

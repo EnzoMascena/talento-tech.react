@@ -1,0 +1,17 @@
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+  gap: 2.75rem 1.5rem;
+}
+
+.grilla > li {
+  display: flex;
+}
+
+/* En celulares mostramos dos productos por fila */
+@media (max-width: 560px) {
+  .grilla {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.25rem 1rem;
+  }
+}

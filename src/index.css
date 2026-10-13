@@ -1,0 +1,92 @@
+/* Estilos globales: fuentes, variables de color, reset y estilos base del documento */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400..700&display=swap");
+
+:root {
+  /* Paleta */
+  --tinta: #161a33;
+  --tinta-suave: #50556f;
+  --papel: #f4f5f9;
+  --blanco: #ffffff;
+  --carga: #ffd23f;
+  --carga-intensa: #f5c400;
+  --linea: #dcdfea;
+  --alerta: #c62a3f;
+  --ok: #17845a;
+
+  /* Tipografías */
+  --fuente-titulos: "Bricolage Grotesque", system-ui, sans-serif;
+  --fuente-texto: "Instrument Sans", system-ui, sans-serif;
+
+  /* Medidas */
+  --radio-chico: 12px;
+  --radio: 18px;
+  --ancho-maximo: 1180px;
+  --margen-lateral: clamp(16px, 4vw, 40px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--fuente-texto);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--tinta);
+  background-color: var(--papel);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fuente-titulos);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--tinta);
+  outline-offset: 3px;
+}
+
+/* Si la persona pidió menos movimiento en su sistema, cortamos las animaciones */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

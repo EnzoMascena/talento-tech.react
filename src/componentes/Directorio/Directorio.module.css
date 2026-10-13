@@ -1,0 +1,19 @@
+.directorio {
+  padding-bottom: 2.5rem;
+}
+
+.titulo {
+  margin-bottom: 1.5rem;
+  color: var(--blanco);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1.75rem 2rem;
+}
+
+.error {
+  color: #ff8a9a;
+}

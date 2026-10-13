@@ -1,0 +1,80 @@
+/* Clases de utilidad que se usan en varios componentes */
+
+/* Centra el contenido y le da márgenes laterales */
+.contenedor {
+  width: min(100% - 2 * var(--margen-lateral), var(--ancho-maximo));
+  margin-inline: auto;
+}
+
+/* Botones (sirven para <button> y para <Link>) */
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.7rem 1.5rem;
+  border: 2px solid var(--tinta);
+  border-radius: 999px;
+  background-color: var(--carga);
+  color: var(--tinta);
+  font-family: var(--fuente-titulos);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.boton:hover {
+  background-color: var(--carga-intensa);
+}
+
+.boton-oscuro {
+  background-color: var(--tinta);
+  color: var(--blanco);
+}
+
+.boton-oscuro:hover {
+  background-color: #2b3058;
+}
+
+.boton-borde {
+  background-color: transparent;
+}
+
+.boton-borde:hover {
+  background-color: var(--blanco);
+}
+
+.boton:disabled {
+  border-color: var(--linea);
+  background-color: var(--linea);
+  color: var(--tinta-suave);
+  cursor: not-allowed;
+}
+
+/* Botón que se ve como un link de texto */
+.boton-texto {
+  padding: 0.25rem 0;
+  border: none;
+  background: none;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.boton-texto:hover {
+  color: var(--alerta);
+}
+
+/* Mensajes de carga o error mientras llegan los datos */
+.estado {
+  padding-block: 3rem;
+  color: var(--tinta-suave);
+}
+
+.estado-error {
+  color: var(--alerta);
+  font-weight: 600;
+}

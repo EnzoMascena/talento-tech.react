@@ -1,0 +1,58 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.imagen {
+  display: block;
+  margin-bottom: 0.9rem;
+  border-radius: var(--radio);
+  overflow: hidden;
+  aspect-ratio: 1;
+  background-color: var(--linea);
+}
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* flex: 1 hace que la info ocupe el espacio libre, así los botones quedan alineados en cada fila */
+.info {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.categoria {
+  color: var(--tinta-suave);
+  font-size: 0.875rem;
+}
+
+.nombre {
+  font-size: 1.1875rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.precio {
+  margin-top: 0.35rem;
+  font-family: var(--fuente-titulos);
+  font-size: 1.375rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.aviso {
+  color: var(--alerta);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.detalle {
+  align-self: flex-start;
+  min-height: 42px;
+  padding: 0.55rem 1.2rem;
+  font-size: 0.9375rem;
+}

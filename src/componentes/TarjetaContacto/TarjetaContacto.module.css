@@ -1,0 +1,33 @@
+.tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.foto {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border: 3px solid var(--blanco);
+  border-radius: 50%;
+}
+
+.nombre {
+  color: var(--blanco);
+  font-size: 1.125rem;
+}
+
+.puesto {
+  font-size: 0.9375rem;
+}
+
+.email {
+  color: var(--carga);
+  font-size: 0.9375rem;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.email:focus-visible {
+  outline-color: var(--carga);
+}

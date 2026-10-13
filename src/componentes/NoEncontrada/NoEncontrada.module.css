@@ -1,0 +1,25 @@
+.pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-block: clamp(3rem, 8vw, 5rem);
+}
+
+.icono {
+  width: 120px;
+  height: 64px;
+  margin-bottom: 0.5rem;
+}
+
+.titulo {
+  max-width: 16ch;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.pagina p {
+  max-width: 48ch;
+  font-size: 1.0625rem;
+}
