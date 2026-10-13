@@ -10,14 +10,14 @@
     "id": 2,
     "nombre": "Solange Rodrigo",
     "puesto": "Desarrollador frontend",
-    "email": "gordita@pila.com.ar",
+    "email": "solangerodrigo@pila.com.ar",
     "foto": "/images/equipo/lucia.svg"
   },
   {
     "id": 3,
     "nombre": "Milagros Crespo",
     "puesto": "Diseñadora UX/UI",
-    "email": "gorda@pila.com.ar",
+    "email": "milagroscrespo@pila.com.ar",
     "foto": "/images/equipo/martina.svg"
   },
   {
